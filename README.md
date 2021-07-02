@@ -80,7 +80,7 @@ In the future we hope to create an algorithm that homeowners can use to input sp
 
 ## For More Information
 
-Please review our full analysis in our [our Jupyter Notebook](./notebooks/report.ipynb) or our [presentation](./images/powerpoint.pdf).
+Please review our full analysis in our [our Jupyter Notebook](./notebooks/report.ipynb) or our [presentation](images/powerpoint.pdf).
 For any additional questions, please contact **Katherine Skoda at kjskoda@bsc.edu, Joe Swing at joeswing88@gmail.com, or Colette Crowder at crcrowde@bsc.edu**
 
 ## Repository Structure
