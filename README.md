@@ -35,33 +35,43 @@ This data is specifically focused on King County. The results may not generalize
 ## Visuals
 
 To figure out which variables are the most useful to include in our model, we compared the strength of their correlations with price. 
+
 ![graph1](./images/heatmap.png)
 
 We discovered the strongest correlation is between square footage and price.
+
 ![graph1](./images/how_footage_of_home_affects_price.png)
 
 We took a random feature and compared it to price to see its effect. After seeing a very extreme outlier, we decided to drop it. The next visualization is the same scatter plot only without the outlier. 
+
 ![graph1](./images/homepriceperroom.png)
 
 This is a boxplot that shows the price for each data set. 
+
 ![graph1](./images/beforeoutliers.png)
 
 The next one is the price for each data set without the 1st and 99th quartiles. 
+
 ![graph1](./images/afteroutliers.png)
 
 This graph shows our baseline model against a perfect model. 
+
 ![graph1](./images/baselinemodelprediction.png)
 
 This shows our price column with outliers.
+
 ![graph1](./images/joesbeforeoutliers.png)
 
 This shows our price column without outliers. 
+
 ![graph1](./images/afteroutlierstakenout.png)
 
 This visulation shows a model that is still being improved upon.
+
 ![graph1](./images/joesmodelprediction.png)
 
 This visual shows our final and most advanced model tested against a perfect model. 
+
 ![graph1](./images/advancedmodelprediction.png)
 
 ## Conclusions
@@ -70,7 +80,7 @@ In the future we hope to create an algorithm that homeowners can use to input sp
 
 ## For More Information
 
-Please review our full analysis in our [our Jupyter Notebook](./notebooks/report.ipynb) or our [presentation](../images/powerpoint.pdf).
+Please review our full analysis in our [our Jupyter Notebook](./notebooks/report.ipynb) or our [presentation](./images/powerpoint.pdf).
 For any additional questions, please contact **Katherine Skoda at kjskoda@bsc.edu, Joe Swing at joeswing88@gmail.com, or Colette Crowder at crcrowde@bsc.edu**
 
 ## Repository Structure
