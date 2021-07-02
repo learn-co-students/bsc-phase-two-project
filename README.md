@@ -4,7 +4,7 @@
 
 ## Overview
 
-Our goal was to create a predictive model of home prices in King County from data of existing King County homes with as much accuracy as possible. The data we used described numerous features of homes such as number of bedrooms, baths, etc. We narrowed down the data to the variables that would best predict price, cleaned the data, preprocessed it, and created models. Our final model is approximately 85% accurate and has a range of error of 102,000 dollars.
+Our goal was to create a predictive model of home prices in King County from data of existing King County homes with as much accuracy as possible. The data we used incorporated numerous features of homes such as number of bedrooms, bathrooms, etc. We narrowed down the data to the variables that would best predict price, cleaned the data, preprocessed it, and created models. Our final model is approximately 85% accurate and has a range of error of 102,000 dollars.
 
 ## Business Problem
 
@@ -21,8 +21,11 @@ We cleaned the data by dropping all null values, removing outliers, OneHotEncodi
 ## Results
 
 Training R2: 0.8503
+
 Testing R2: 0.8467
+
 Training RMSE: 101415.6435
+
 Testing RMSE: 102664.7123
 
 Our final model results gave us a testing R^2 value of .84 and our testing RMSE was brought down from roughly 217,000 dollars to roughly 102,000 dollars. 
@@ -82,7 +85,8 @@ For any additional questions, please contact **Katherine Skoda at kjskoda@bsc.ed
 
 ## Repository Structure
 
-project-folder
+<pre>project-folder<br />    |<br />    data<br />    images<br />    notebooks<br />    README.md<br />          |<br />          report.ipynb<br />          exploratory-folder<br />                  |<br />                  colette<br />                  Joe <br />                  Katie                      </pre>
+<!-- project-folder
    |
    data
    images
@@ -95,3 +99,4 @@ project-folder
                  colette
                  Joe
                  Katie      
+ -->
