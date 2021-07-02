@@ -4,7 +4,7 @@
 
 ## Overview
 
-Our goal was to predict home prices in King County from data of existing King County homes with as much accuracy as possible. The data we used described numerous features of homes. We narrowed down the data to the variables that would best predict price, cleaned the data, preprocessed it, and created models. Our final model is approximately 84% accurate and has a range of error of 102,000 dollars.
+Our goal was to create a predictive model of home prices in King County from data of existing King County homes with as much accuracy as possible. The data we used described numerous features of homes such as number of bedrooms, baths, etc. We narrowed down the data to the variables that would best predict price, cleaned the data, preprocessed it, and created models. Our final model is approximately 85% accurate and has a range of error of 102,000 dollars.
 
 ## Business Problem
 
@@ -16,7 +16,7 @@ All data came from homes in King County. Data we explored included number of bed
 
 ## Methods
 
-We cleaned the data by dropping all null values and removing outliers. By comparing correlations, we decided which variables to focus on. We created a baseline model, then we preprocessed the data by dropping irrelevant columns and encoding variables. We created another model from the baseline that would more effectively predict house prices. 
+We cleaned the data by dropping all null values, removing outliers, OneHotEncoding categorical features, and changing all strings into int or float values for easier access. By comparing correlations, we decided which variables to focus on. We created a baseline model, then we preprocessed the data by dropping irrelevant columns and encoding certain variables. We created another model from the baseline that would more effectively predict house prices. 
 
 ## Results
 
@@ -32,11 +32,11 @@ This data is specifically focused on King County. The results may not generalize
 ## Visuals
 
 To figure out which variables are the most useful to include in our model, we compared the strength of their correlations with price. 
-![graph1](./images/viz1.png)
+![graph1](./images/heatmap.png)
 
 Insert Purple scatter plot
 We discovered the strongest correlation is between square footage and price.
-![graph1](./images/viz1.png)
+![graph1](./images/how_footage_of_home_affects_price.png)
 
 Insert room vs price
 We took a random feature and compared it to price to see its effect. After seeing a very extreme outlier, we decided to drop it. The next visualization is the same scatter plot only without the outlier. 
