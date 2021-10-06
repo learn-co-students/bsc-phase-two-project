@@ -7,7 +7,7 @@
 <p>For this project, we ask that you use the following github workflow.</p>
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="images/git-diagram.png" />&nbsp;</p>
 <p>Each team member should have their own branch, where the vast majority of their work takes place.</p>
-<p>At the end of each day, or on an agreed upon cadence within your group, each team member will sync their person branches by merging with the developing branch. All work that ends up in the&nbsp;<em>main</em> branch should first be pushed to developing.&nbsp;</p>
+<p>At the end of each day, or on an agreed upon cadence within your group, each team member will sync their member branches by merging with the developing branch. All work that ends up in the&nbsp;<em>main</em> branch should be finalize first on developing.&nbsp;</p>
 <p>This can be done by running the following in command line:</p>
 <ul>
     <li>
