@@ -5,7 +5,7 @@
 <pre>project-folder<br />    |<br />    README.md<br />    data-folder<br />    images-folder<br />    notebooks-folder<br />          |<br />          report.ipynb<br />          exploratory-folder<br />                  |<br />                  member-1-notebooks-folder<br />                  member-2-notebooks-folder <br />                  member-3-notebooks-folder                      </pre>
 <h2>Github Workflow</h2>
 <p>For this project, we ask that you use the following github workflow.</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="git-diagram.png" />&nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="images/git-diagram.png" />&nbsp;</p>
 <p>Each team member should have their own branch, where the vast majority of their work takes place.</p>
 <p>At the end of each day, or on an agreed upon cadence within your group, each team member will sync their person branches by merging with the developing branch. All work that ends up in the&nbsp;<em>main</em> branch should first be pushed to developing.&nbsp;</p>
 <p>This can be done by running the following in command line:</p>
